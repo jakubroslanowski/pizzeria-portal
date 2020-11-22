@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Dashboard.module.scss';
 import Kitchen from '../Kitchen/Kitchen';
-import Waiter from '../Waiter/Waiter';
+import Waiter from '../Waiter/WaiterContainer';
 
 const Dashboard = () => {
   return (
