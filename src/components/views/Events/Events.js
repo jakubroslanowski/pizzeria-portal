@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Booking.module.scss';
+import styles from './Events.module.scss';
 import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
@@ -12,12 +12,12 @@ import TableCell from '@material-ui/core/TableCell';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 
-const Booking = () => {
+const Events = () => {
   return (
     <Card>
       <CardContent align='center'>
         <Typography color='textPrimary'>
-          Booking details:
+          Event details:
           <CardActions>
             <Button className={styles.btn} size='small'>
               <EditIcon />
@@ -125,4 +125,4 @@ const Booking = () => {
   );
 };
 
-export default Booking;
+export default Events;
